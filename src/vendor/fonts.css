@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "Unbounded";
+	font-style: bold;
+	font-weight: 700;
+	src: url("./fonts/Unbounded/Unbounded-Bold.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Unbounded";
+	font-style: normal;
+	font-weight: 700;
+	src: url("./fonts/Unbounded/Unbounded-Black.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Schibsted Grotesk";
+	font-style: normal;
+	font-weight: 400;
+	src: url("./fonts/Schibsted_Grotesk/SchibstedGrotesk-Regular.ttf")
+		format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Schibsted Grotesk";
+	font-style: bold;
+	font-weight: 700;
+	src: url("./fonts/Schibsted_Grotesk/SchibstedGrotesk-Bold.ttf")
+		format("truetype");
+	font-display: swap;
+}

@@ -1,0 +1,77 @@
+.projects {
+	max-width: 1280px;
+	width: calc(100% - 100px * 2);
+	margin: 0 auto;
+	padding: 100px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.projects__title {
+	font-weight: 700;
+	font-style: normal;
+	font-family: "Unbounded", sans-serif;
+	color: #000000;
+	font-size: 48px;
+	letter-spacing: 0em;
+	line-height: 1.2;
+
+	margin: 0;
+	padding: 0;
+}
+
+.projects__btn {
+	width: 100%;
+	all: unset;
+	cursor: pointer;
+	align-self: center;
+	justify-self: center;
+}
+
+.projects__image {
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 40px;
+}
+
+.projects__table {
+	display: grid;
+	grid-template-columns: repeat(3, calc((100% - 20px * 2) / 3));
+	grid-template-rows: repeat(3, max-content);
+	gap: 20px;
+	/* grid-template-areas:
+		"icon1 icon2 icon3"
+		"icon4 . icon6"
+		"icon7 icon8 icon9"; */
+	justify-content: center;
+	align-items: center;
+}
+
+/* .projects__table-item_first {
+	grid-area: icon1;
+}
+.projects__table-item_second {
+	grid-area: icon2;
+}
+.projects__table-item_third {
+	grid-area: icon3;
+}
+.projects__table-item_fourth {
+	grid-area: icon4;
+}
+.projects__table-item_sixth {
+	grid-area: icon6;
+}
+.projects__table-item_seventh {
+	grid-area: icon7;
+}
+.projects__table-item_eighth {
+	grid-area: icon8;
+}
+.projects__table-item_last {
+	grid-area: icon9;
+} */

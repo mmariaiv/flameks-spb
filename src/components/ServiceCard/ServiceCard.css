@@ -1,0 +1,51 @@
+.service-item {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.service-item:nth-child(2n) {
+	flex-direction: row-reverse;
+}
+
+.service-item__title {
+	font-weight: 700;
+	font-style: normal;
+	font-family: "Unbounded", sans-serif;
+	color: #000000;
+	font-size: 32px;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+}
+
+.service-item__description {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 400px;
+	justify-content: center;
+	align-items: start;
+}
+
+.service-item__about {
+	font-weight: 400;
+	font-style: normal;
+	font-family: "Schibsted Grotesk", sans-serif;
+	color: #000000;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	max-width: 400px;
+	text-align: left;
+}
+
+.service-item__image {
+	background-position: center;
+	border-radius: 40px;
+	flex-shrink: 1;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}

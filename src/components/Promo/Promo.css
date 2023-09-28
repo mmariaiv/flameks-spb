@@ -1,0 +1,56 @@
+.promo {
+	width: 100%;
+	background-color: black;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+.promo__title {
+	margin: 0;
+	padding: 0;
+	font-family: "Unbounded", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+
+	color: #e2eafc;
+	font-size: 143px;
+	text-transform: uppercase;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.promo__subtitle {
+	font-family: "Unbounded", sans-serif;
+	font-style: bold;
+
+	color: #e2eafc;
+	font-size: 74px;
+	text-transform: uppercase;
+	line-height: 1.1;
+	text-align: center;
+
+	margin: 0;
+	padding: 0;
+}
+
+.promo__container {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 221px;
+}
+
+.promo__background {
+	content: "";
+	background-image: url("../../images/group_logo.svg");
+	background-size: 435px 130px;
+	width: 435px;
+	height: 130px;
+	object-position: center;
+	object-fit: cover;
+	margin: 0 auto;
+}
