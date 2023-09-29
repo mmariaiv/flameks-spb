@@ -3,6 +3,7 @@ import Promo from "../Promo/Promo";
 import AboutUs from "../AboutUs/AboutUs";
 import Services from "../Services/Services";
 import Projects from "../Projects/Projects";
+import Contacts from "../Contacts/Contacts";
 
 function Main() {
 	return (
@@ -11,6 +12,7 @@ function Main() {
 			<AboutUs />
 			<Services />
 			<Projects />
+			<Contacts />
 		</main>
 	);
 }

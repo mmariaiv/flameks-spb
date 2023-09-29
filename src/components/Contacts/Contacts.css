@@ -1,0 +1,115 @@
+.contacts {
+	max-width: 1280px;
+	width: calc(100% - 100px * 2);
+	margin: 0 auto;
+	padding: 100px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.contacts__title {
+	width: 100%;
+	font-weight: 700;
+	font-style: bold;
+	font-family: "Unbounded", sans-serif;
+	color: #000000;
+	font-size: 70px;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+
+	margin: 0;
+	padding: 0;
+}
+
+.contacts__subtitle {
+	max-width: 480px;
+	font-weight: 400;
+	font-style: normal;
+	font-family: "Schibsted Grotesk", sans-serif;
+	color: #000000;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+
+	margin: 0;
+	padding: 0;
+}
+
+.contacts__info-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+.contact-us {
+	width: 100%;
+	max-width: 400px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 20px 0;
+	align-self: center;
+	justify-self: center;
+}
+
+.contact-us__form-label {
+	width: 100%;
+}
+
+.contact-us__input {
+	all: unset;
+	width: 100%;
+	border: 1px solid #b6ccfe;
+	color: #b6ccfe;
+	font-family: "Schibsted Grotesk", sans-serif;
+	font-size: 16px;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 0 auto;
+	transition: color 0.5s ease-in-out;
+}
+
+.contact-us__input:focus {
+	color: black;
+	transition: color 0.5s ease-in-out;
+}
+
+.contact-us__submit-btn {
+	all: unset;
+	cursor: pointer;
+	width: 100%;
+	padding: 15px;
+	color: white;
+	background-color: #b6ccfe;
+	font-family: "Schibsted Grotesk", sans-serif;
+	font-size: 16px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid #b6ccfe;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.contact-us__submit-btn:disabled {
+	opacity: 0.3;
+
+	cursor: default;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.contact-us__input-error {
+	width: 100%;
+	color: #b6ccfe;
+	font-family: "Schobsted Grotesk", sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	margin: 10px auto 10px auto;
+}
