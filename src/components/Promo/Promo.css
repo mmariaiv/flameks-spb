@@ -12,7 +12,8 @@
 	font-family: "Unbounded", sans-serif;
 	font-weight: 700;
 	font-style: bold;
-
+	max-width: 1280px;
+	width: 100%;
 	color: #e2eafc;
 	font-size: 143px;
 	text-transform: uppercase;

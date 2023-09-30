@@ -42,7 +42,11 @@
 }
 
 .service-item__image {
+	max-width: 50%;
+	width: 50%;
 	background-position: center;
+	justify-self: center;
+	align-self: center;
 	border-radius: 40px;
 	flex-shrink: 1;
 	height: auto;

@@ -19,7 +19,6 @@ function Contacts() {
 			phone: values.phone,
 			email: values.email,
 		});
-		console.log(contactData);
 		return JSON.stringify(contactData);
 	}
 

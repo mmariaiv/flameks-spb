@@ -1,5 +1,4 @@
 .page {
-	/* max-width: 1280px; */
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -9,6 +8,7 @@
 	-moz-text-size-adjust: 100%;
 	min-width: 320px;
 	font-family: "Schibsted Grotesk", sans-serif;
+	scroll-behavior: smooth;
 }
 
 .logo {

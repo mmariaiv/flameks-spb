@@ -27,6 +27,12 @@
 	cursor: pointer;
 	align-self: center;
 	justify-self: center;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.projects__btn:hover {
+	opacity: 0.6;
+	transition: opacity 0.5s ease-in-out;
 }
 
 .projects__image {
@@ -40,38 +46,9 @@
 
 .projects__table {
 	display: grid;
-	grid-template-columns: repeat(3, calc((100% - 20px * 2) / 3));
+	grid-template-columns: repeat(3, calc((100% / 3 - 20px * 2)));
 	grid-template-rows: repeat(3, max-content);
 	gap: 20px;
-	/* grid-template-areas:
-		"icon1 icon2 icon3"
-		"icon4 . icon6"
-		"icon7 icon8 icon9"; */
 	justify-content: center;
 	align-items: center;
 }
-
-/* .projects__table-item_first {
-	grid-area: icon1;
-}
-.projects__table-item_second {
-	grid-area: icon2;
-}
-.projects__table-item_third {
-	grid-area: icon3;
-}
-.projects__table-item_fourth {
-	grid-area: icon4;
-}
-.projects__table-item_sixth {
-	grid-area: icon6;
-}
-.projects__table-item_seventh {
-	grid-area: icon7;
-}
-.projects__table-item_eighth {
-	grid-area: icon8;
-}
-.projects__table-item_last {
-	grid-area: icon9;
-} */
