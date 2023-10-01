@@ -26,10 +26,6 @@ function Contacts() {
 		resetForm();
 	}, [resetForm]);
 
-	React.useEffect(() => {
-		console.log(isValid, errors);
-	}, [isValid, errors]);
-
 	return (
 		<section className="contacts">
 			<h2 className="contacts__title">Связаться с нами</h2>

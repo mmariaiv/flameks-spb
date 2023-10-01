@@ -1,11 +1,39 @@
 .header {
 	width: 100%;
 	background-color: black;
-	padding: 50px 0 210px 0;
+	padding: 50px 0 120px 0;
 }
 
 .header__container {
 	max-width: 1280px;
 	width: calc(100% - 100px * 2);
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1123px) {
+	.header__container {
+		width: calc(100% - 50px * 2);
+	}
+
+	.header {
+		padding: 20px 0 180px 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header__container {
+		width: calc(100% - 20px * 2);
+	}
+
+	.header {
+		padding: 20px 0 60px 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.header__container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }

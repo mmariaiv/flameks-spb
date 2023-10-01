@@ -7,6 +7,7 @@ function Header() {
 			<div className="header__container">
 				<img className="logo" src={headerLogo} alt="Логотип Фламекс СПБ" />
 			</div>
+			<p className="header__link"></p>
 		</header>
 	);
 }

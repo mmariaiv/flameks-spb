@@ -2,11 +2,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 	height: 100vh;
 	background-color: rgba(0, 0, 0, 0.4);
 }
 .modal__container {
 	max-width: 1280px;
+	width: 80%;
 	position: relative;
 	display: flex;
 	flex-direction: row-reverse;
@@ -86,4 +88,28 @@
 
 .ReactModal__Overlay--before-close {
 	opacity: 0;
+}
+
+@media screen and (max-width: 1023px) {
+	.modal__container {
+		flex-direction: column-reverse;
+	}
+	.modal__info {
+		width: 100%;
+		gap: 15px;
+		align-content: start;
+	}
+
+	.modal__image {
+		width: 100%;
+	}
+
+	.modal__title {
+		font-size: 18px;
+	}
+
+	.modal__text {
+		font-size: 16px;
+		text-align: justify;
+	}
 }

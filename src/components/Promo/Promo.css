@@ -14,7 +14,7 @@
 	font-style: bold;
 	max-width: 1280px;
 	width: 100%;
-	color: #e2eafc;
+	color: white;
 	font-size: 143px;
 	text-transform: uppercase;
 	line-height: 1.1;
@@ -25,7 +25,7 @@
 	font-family: "Unbounded", sans-serif;
 	font-style: bold;
 
-	color: #e2eafc;
+	color: white;
 	font-size: 74px;
 	text-transform: uppercase;
 	line-height: 1.1;
@@ -54,4 +54,40 @@
 	object-position: center;
 	object-fit: cover;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1123px) {
+	.promo__title {
+		font-size: 100px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.promo__title {
+		font-size: 74px;
+		width: 80%;
+		max-width: 80%;
+	}
+
+	.promo__background {
+		max-width: 80%;
+		background-repeat: no-repeat;
+		justify-self: center;
+		align-self: center;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.promo__title {
+		font-size: 46px;
+	}
+
+	.promo__subtitle {
+		font-size: 40px;
+	}
+
+	.promo__background {
+		background-size: 200px auto;
+		background-position: center;
+	}
 }

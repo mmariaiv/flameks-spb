@@ -5,6 +5,7 @@ function Modal(props) {
 	return (
 		<ReactModal
 			className="modal"
+			ariaHideApp={false}
 			isOpen={props.isOpen}
 			onRequestClose={props.onRequestClose}
 		>

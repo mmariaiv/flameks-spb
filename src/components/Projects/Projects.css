@@ -8,6 +8,10 @@
 	gap: 60px;
 }
 
+.projects__table-item {
+	width: 100%;
+}
+
 .projects__title {
 	font-weight: 700;
 	font-style: normal;
@@ -45,10 +49,42 @@
 }
 
 .projects__table {
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, calc((100% / 3 - 20px * 2)));
 	grid-template-rows: repeat(3, max-content);
 	gap: 20px;
 	justify-content: center;
 	align-items: center;
+}
+
+@media screen and (max-width: 1123px) {
+	.projects {
+		width: calc(100% - 50px * 2);
+		padding: 50px 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.projects {
+		width: calc(100% - 20px * 2);
+		padding: 40px 0;
+	}
+
+	.projects__table {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	.projects__title {
+		font-size: 32px;
+	}
+
+	.projects__btn {
+		width: 100%;
+	}
 }

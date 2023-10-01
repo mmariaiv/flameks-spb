@@ -71,3 +71,25 @@
 	flex-direction: column;
 	gap: 10px;
 }
+
+@media screen and (max-width: 1123px) {
+	.about-us {
+		width: calc(100% - 50px * 2);
+		padding: 50px 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.about-us {
+		width: calc(100% - 20px * 2);
+		padding: 40px 0;
+	}
+
+	.about-us__title {
+		font-size: 32px;
+	}
+
+	.about-us__advert {
+		font-size: 18px;
+	}
+}

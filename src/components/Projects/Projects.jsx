@@ -21,28 +21,26 @@ function Projects() {
 			<section className="projects">
 				<h2 className="projects__title">Наши проекты</h2>
 				<div className="projects__table">
-					{cardsList.map((card) => {
+					{cardsList.map((card, key) => {
 						if (!card.isSkipped) {
 							return (
-								<>
-									<div className="projects__table-item ">
-										<button
-											className="projects__btn"
-											onClick={() => {
-												openModal(card);
-											}}
-										>
-											<img
-												src={card.url}
-												className="projects__image"
-												alt={card.alt}
-											/>
-										</button>
-									</div>
-								</>
+								<div className="projects__table-item" key={key}>
+									<button
+										className="projects__btn"
+										onClick={() => {
+											openModal(card);
+										}}
+									>
+										<img
+											src={card.url}
+											className="projects__image"
+											alt={card.alt}
+										/>
+									</button>
+								</div>
 							);
 						} else {
-							return <div className="projects__table-item"></div>;
+							return <div className="projects__table-item" key={key}></div>;
 						}
 					})}
 				</div>
