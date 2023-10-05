@@ -19,7 +19,7 @@ function Projects() {
 	return (
 		<>
 			<section className="projects">
-				<h2 className="projects__title">Наши проекты</h2>
+				<h2 className="projects__title title">Наши проекты</h2>
 				<div className="projects__table">
 					{cardsList.map((card, key) => {
 						if (!card.isSkipped) {

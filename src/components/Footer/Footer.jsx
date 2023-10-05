@@ -27,7 +27,7 @@ function Footer() {
 				</div>
 			</div>
 			<p className="footer__copyright">
-				{`© Фламекс ${currentYear}. Все права защищены.`}
+				{`© Фламекс СПБ ${currentYear}. Все права защищены.`}
 			</p>
 		</footer>
 	);

@@ -14,6 +14,8 @@ import NevskyModal from "../images/nevsky_town_hall_modal.png";
 import PlazaModal from "../images/victory_plaza_modal.png";
 import KutuzovoModal from "../images/kutuzovo_modal.png";
 import BankModal from "../images/bank_building_modal.png";
+import MgteModal from "../images/mgte.jpg";
+import Mgte from "../images/mgte_main.png";
 
 export const regexPhoneValidation =
 	/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
@@ -52,7 +54,12 @@ export const cardsList = [
 			"В новом производственно-складском здании выполнен монтаж систем вентиляции, отопления, водоснабжения, канализации и спринклерного водяного пожаротушения.",
 	},
 	{
-		isSkipped: true,
+		url: Mgte,
+		title: "Московский государственный театр Эстрады",
+		alt: "Театр эстрады",
+		modalUrl: MgteModal,
+		about:
+			"В здании театра был проведен монтаж систем вентиляции и кондиционирования. ",
 	},
 	{
 		url: VictoryPlaza,

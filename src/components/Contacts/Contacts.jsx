@@ -28,7 +28,7 @@ function Contacts() {
 
 	return (
 		<section className="contacts">
-			<h2 className="contacts__title">Связаться с нами</h2>
+			<h2 className="contacts__title title">Связаться с нами</h2>
 			<div className="contacts__info-container">
 				<p className="contacts__subtitle">
 					Если у&nbsp;вас возникли вопросы или вы&nbsp;хотите обсудить ваш

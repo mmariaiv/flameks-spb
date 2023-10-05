@@ -4,7 +4,7 @@ function AboutUs() {
 	return (
 		<section className="about-us">
 			<div className="about-us__description">
-				<h2 className="about-us__title">О нас</h2>
+				<h2 className="about-us__title title">О нас</h2>
 				<p className="about-us__advert">
 					Фламекс&nbsp;&mdash; инженерная компания в&nbsp;Санкт-Петербурге,
 					предлагающая комплексные услуги по&nbsp;проектированию, монтажу
@@ -15,9 +15,9 @@ function AboutUs() {
 				</p>
 			</div>
 			<div className="about-us__service">
-				<h2 className="about-us__title">Услуги</h2>
+				<h2 className="about-us__title title">Услуги</h2>
 				<div className="about-us__list">
-					<p className="about-us__list-item">Стройка</p>
+					<p className="about-us__list-item">Строительство</p>
 					<hr className="border" />
 					<p className="about-us__list-item">Поставка оборудования</p>
 					<hr className="border" />

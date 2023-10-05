@@ -7,11 +7,11 @@ import Contacts from "../Contacts/Contacts";
 import { useResize } from "../../utils/UseResize";
 
 function Main() {
-	const { width } = useResize();
+	// const { width } = useResize();
 
 	return (
 		<main className="main">
-			{width >= 600 && <Promo />}
+			<Promo />
 
 			<AboutUs />
 			<Services />

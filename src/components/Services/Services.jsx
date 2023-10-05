@@ -5,6 +5,7 @@ import SelfEmployees from "../../images/home.png";
 import Factory from "../../images/factory.png";
 import Setting from "../../images/man_and_tubes.png";
 import PlanningProcess from "../../images/planning.png";
+import Tubes from "../../images/tubes.png";
 
 function Services() {
 	return (
@@ -26,13 +27,13 @@ function Services() {
 			/>
 			<ServiceCard
 				title="Обслуживание"
-				description="Наша экспертиза включает осмотр и обслуживание инженерных сетей, кондиционеров, , а другого оборудования."
+				description="Наша экспертиза включает осмотр и обслуживание инженерных сетей, кондиционеров, и другого оборудования."
 				img={Setting}
 			/>
 			<ServiceCard
 				title="Поставка оборудования"
 				description="Компания ФЛАМЕКС СПБ является представительством компании FLAMEX на&nbsp;территории северо-западного округа и&nbsp;предлагает противопожарное оборудование систем вентиляции и&nbsp;другие компоненты от&nbsp;ведущего производителя."
-				img={Factory}
+				img={Tubes}
 			/>
 		</section>
 	);
