@@ -7,14 +7,14 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<div className="footer__container">
-				<div className="footer__links-container">
+				{/* <div className="footer__links-container">
 					<h3 className="footer__links-title">О нас</h3>
 					<ul className="footer__links">
 						<li className="footer__link">Компания</li>
 						<li className="footer__link">Проекты</li>
 						<li className="footer__link">Отзывы</li>
 					</ul>
-				</div>
+				</div> */}
 				<div className="footer__links-container">
 					<h3 className="footer__links-title">Контакты</h3>
 					<ul className="footer__links">
