@@ -20,8 +20,15 @@ function Footer() {
 					<ul className="footer__links">
 						<li className="footer__link">+7 (964) 382-52-42</li>
 						<li className="footer__link">info@flamexspb.ru</li>
-						<li className="footer__link">
-							г. Санкт-Петербург, ул. Чугунная, д. 4 литера А, офис 407
+						<li>
+							<a
+								href="https://yandex.ru/maps/-/CDavQOzO"
+								className="footer__link footer__address"
+								rel="noopener noreferrer"
+								target="blank"
+							>
+								г. Санкт-Петербург, ул. Чугунная, д. 4 литера А, офис 407
+							</a>
 						</li>
 					</ul>
 				</div>
