@@ -1,4 +1,7 @@
 # Сайт-лендинг для компании ФЛАМЕКС СПБ
+
+<img src="https://github.com/mmariaiv/flameks-spb/assets/94047579/f323d872-79bb-4645-8259-3e97a06f7958" alt="flamex_spb" />
+
 ## Ссылка: https://flamex-spb.ru
 ## Стэк: React, reg.ru, Framer, БЭМ.
 
